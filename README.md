@@ -6,3 +6,7 @@ Library Management System  is a smart application designed to automate and strea
 # Features 
 
 User-friendly GUI: Intuitive interface for easy navigation and operation. Allows login only for admins and students using a protected password.
+
+## 📌 Installation & Usage
+
+vs code environment
