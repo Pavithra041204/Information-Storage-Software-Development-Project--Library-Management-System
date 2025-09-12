@@ -9,4 +9,6 @@ User-friendly GUI: Intuitive interface for easy navigation and operation. Allows
 
 ## 📌 Installation & Usage
 
-vs code environment
+- **Programming Language:** C++  
+- **IDE:** Any C++ compiler (Dev-C++, Code::Blocks, Visual Studio, or VS Code)  
+- **Console-based Interface** 
