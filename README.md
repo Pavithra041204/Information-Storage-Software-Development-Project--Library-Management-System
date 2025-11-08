@@ -1,18 +1,57 @@
-# APPLICATION DOMAIN / SOFTWARE DEVELOPMENT PROJECT - LIBRARY MANAGEMENT SYSTEM using C++
+# 📚 Library Management System (Python + Streamlit)
 
----------
-Library Management System  is a smart application designed to automate and streamline library operations.It allows users to efficiently manage books, including adding, updating, and deleting records.Members can be registered, tracked, and managed with ease, while book issuance and status are automated.The system provides quick search and tracking functionalities to locate books effortlessly.Built with a user-friendly interface and database integration, it transforms traditional library management into a tech-driven, efficient experience.
+## 🔧 Overview
 
-# Features 
+This project is a **Library Management System** that enables both Admins and Students to manage library activities.  
+Initially, the project was developed using **C++ with a console-based interface**, using arrays and functions.  
+Now, it has been **upgraded to a web application** using **Python and Streamlit**, providing a graphical and more user-friendly interface.
 
-User-friendly GUI: Intuitive interface for easy navigation and operation. Allows login only for admins and students using a protected password.
+---
 
-## 📌 Installation & Usage
+## 🚀 Features
 
-- **Programming Language:** C++  
-- **IDE:** Any C++ compiler (Dev-C++, Code::Blocks, Visual Studio, or VS Code)  
-- **Console-based Interface**
+### 👨‍💻 Admin Panel
+| Feature | Description |
+|--------|-------------|
+| ➕ Add Book | Add new books to the library. |
+| ✏️ Edit Book | Modify book title or author details. |
+| 📄 View Books | Displays all books and their availability status. |
+| 👥 View Students | Shows student roll number, name, and balance. |
 
-## 🛠 Functions
+### 👩‍🎓 Student Panel
+| Feature | Description |
+|--------|-------------|
+| 🆕 Create Account | Register with a minimum initial deposit amount. |
+| 💵 Deposit Amount | Add funds to account balance. |
+| 👀 View Balance | Displays balance and student information. |
+| 📕 Issue Book | Allows issuing books if balance ≥ required amount. |
 
-Administrators can manage the library by adding new books, editing existing book details, viewing the list of available books, and checking enrolled students and their balances. Students can create accounts, deposit funds, view their balances, and issue books, with the system automatically updating book availability and deducting any associated charges. The program uses arrays to store book and student information, and functions are modularly designed to handle tasks such as searching for students or books, sorting student records, and validating inputs. Each operation is performed with error handling to prevent duplicate entries and ensure the integrity of data. Overall, the system demonstrates key C++ programming concepts, including arrays, functions, loops, conditional statements, and basic user interaction, providing a practical simulation of a real-world library environment.
+---
+
+## 🛠️ Technology Used
+
+| Component | Technology |
+|----------|------------|
+| Programming Language | **Python** (previous version was C++) |
+| Framework / UI | **Streamlit** (web-based interface) |
+| Data Handling | `st.session_state` (temporary in-memory storage) |
+| IDE | VS Code / Any editor of choice |
+
+> The earlier version used **arrays, functions, loops, conditional statements** in C++.  
+> The upgraded version demonstrates **web UI, state management, and event-driven programming** in Streamlit.
+
+---
+
+## 🔄 Evolution of the Project
+
+| Old Version (C++) | New Version (Streamlit + Python) |
+|-------------------|----------------------------------|
+| Console-based interaction | Browser-based UI with buttons, forms, tabs |
+| Arrays for saving books and students | Uses `session_state` (later expandable to SQLite DB) |
+| Manual input navigation | User-friendly UI with proper layout |
+| Output shown as plain text | Output displayed as tables & UI components |
+
+---
+
+## 📁 Project Structure
+
