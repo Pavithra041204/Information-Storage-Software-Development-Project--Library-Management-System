@@ -1,0 +1,8 @@
+python -m venv venv
+
+venv\Scripts\activate
+
+to open powershell as administrator - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+pip install streamlit
