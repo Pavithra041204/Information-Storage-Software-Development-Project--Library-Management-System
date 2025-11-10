@@ -42,9 +42,6 @@ Originally developed in **C++ (console-based)**, and later upgraded to a **web-b
 
 ---
 
-## 📁 Project Structure (visible on GitHub ✅)
-
-> ✅ This structure is formatted so GitHub will display it **exactly as shown**.
 
 
 
