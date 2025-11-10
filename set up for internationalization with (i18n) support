@@ -1,0 +1,20 @@
+ python3 -m pip install babel 
+
+ py -m pip install streamlit 
+
+//verifying installation
+py -m streamlit --version
+
+
+import i18n library 
+
+
+project structure 
+libraryapp/
+│── app.py               <-- Main Streamlit file
+│── i18n.py              <-- Translation logic
+│
+└── locales/             <-- Translations folder
+     │── en.json
+     │── hi.json
+     │── kn.json
