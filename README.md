@@ -1,47 +1,51 @@
 # 📚 Library Management System (Python + Streamlit)
 
-## 🌍 New Update: Internationalization (i18n) – Multi-Language Support ✅
+## 🌍 Multi-Language Support (Internationalization - i18n)
 
-The latest version of this project now supports **multiple languages**:
+This project now supports **three languages**:
 
 - 🇬🇧 English
 - 🇮🇳 हिन्दी (Hindi)
 - 🇮🇳 ಕನ್ನಡ (Kannada)
 
-Users can choose language from the sidebar dropdown, and the entire UI (buttons, form labels, success messages, validation messages) updates instantly using **i18n JSON translation files**.
+Users can switch language dynamically from the sidebar — all UI elements update instantly.
 
 ---
 
-## 🔧 Overview
+## 🔧 Project Overview
 
-This project is a **Library Management Web Application** developed using **Python + Streamlit**.
+A Library Management System that allows:
 
-➡️ The project was originally created in **C++ (console-based version)** using:
-- Arrays
-- Functions
-- Loops
-- Conditional statements
+- Admin to manage books and students  
+- Students to check balance, deposit money, and issue books  
 
-➡️ Later, upgraded to a **web-based UI** using:
-- Streamlit components (forms, buttons, tables, tabs)
-- State management (`st.session_state`)
-- Internationalization support (JSON + custom `i18n.py` loader)
+Originally developed in **C++ (console-based)**, and later upgraded to a **web-based UI** using:
 
----
-
-## 🚀 Key Features
-
-### 👨‍💻 Admin Panel
-| Feature | Description |
-|--------|-------------|
-| ➕ Add Book | Add new books to the library inventory. |
-| ✏️ Edit / Update Book | Modify existing book details. |
-| 📄 View Books | Shows book code, title, author, availability status. |
-| 👥 View Students | Shows student roll number, name, balance. |
+| Feature | Old System (C++) | New System (Python + Streamlit) |
+|---------|------------------|----------------------------------|
+| Interface | Console/Terminal | Web Application |
+| Data Storage | Arrays | Streamlit `session_state` |
+| User Interaction | Keyboard input | GUI (buttons, tabs, forms) |
+| Language | English only | ✅ English / ✅ Hindi / ✅ Kannada |
 
 ---
 
-### 👩‍🎓 Student Panel
-| Feature | Description
+## 🛠️ Technologies Used
+
+| Component | Technology |
+|----------|------------|
+| Frontend / UI | Streamlit |
+| Backend | Python |
+| Language Translation | JSON + `i18n.py` |
+| Data Storage | `st.session_state` |
+| IDE | VS Code |
+
+---
+
+## 📁 Project Structure (visible on GitHub ✅)
+
+> ✅ This structure is formatted so GitHub will display it **exactly as shown**.
+
+
 
 
